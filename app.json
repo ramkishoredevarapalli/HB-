@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "HB+ Team Portal",
+    "slug": "hbplus-team-portal",
+    "version": "1.0.0",
+    "scheme": "hbplus",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.hbplus.portal",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hbplus.portal"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-status-bar"]
+  }
+}

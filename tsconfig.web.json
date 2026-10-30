@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleSuffixes": [".web", ".native", ""]
+  },
+  "include": ["App.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist",
+    "src/**/*.native.ts",
+    "src/**/*.native.tsx"
+  ]
+}
